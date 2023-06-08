@@ -3,16 +3,13 @@ body {
   margin: 0px;
 }
 
-header h1{
-  color: red;
-}
 
 :root{
-  --darkpurple: #331E36;
-  --blue: #41337A;
-  --lightblue: #6EA4BF;
-  --mintgreen: #C2EFEB;
-  --honey: #ECFEE8;
+  --raisin: #3A2E39;
+  --green: #1E555C;
+  --pale: #F4D8CD;
+  --buff: #EDB183;
+  --red: #F15152;
 }
 
 .navbar {
@@ -20,7 +17,7 @@ header h1{
   display:inline-flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--darkpurple);
+  background-color: var(--buff);
   height: 60px;
   position: fixed;
   top: 0px;
@@ -44,9 +41,28 @@ header h1{
 
 .navbar a{
   text-decoration: none;
-  color: var(--honey);
+  color: var(--green);
 }
 
 .navbar a:hover{
-  color: var(--mintgreen)
+  color: var(--raisin)
+}
+
+.banner{
+  position: relative;
+  top: 60px;
+  background-image: url("images/artem-verbo-rAyIvNqlwCY-unsplash.jpg");
+  filter:grayscale(50%);
+  display:flex;
+  background-repeat:no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+header h1{
+  color: var(--red);
+  font-family: "Bakbak One";
+  font-size: 5rem;
 }
