@@ -1,0 +1,11 @@
+header h1{
+  color: red;
+}
+
+:root{
+  --darkpurple: #331E36;
+  --blue: #41337A;
+  --lightblue: #6EA4BF;
+  --mintgreen: #C2EFEB;
+  --honey: #ECFEE8;
+}
