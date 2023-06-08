@@ -1,6 +1,12 @@
 body {
   font-size: 16px;
   margin: 0px;
+  font-family: "Ubuntu";
+}
+h1{
+  font-family: "Bakbak One";
+  font-size: 2rem;
+  color: var(--raisin)
 }
 
 
@@ -17,7 +23,7 @@ body {
   display:inline-flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--buff);
+  background-color: #ffffff;
   height: 60px;
   position: fixed;
   top: 0px;
@@ -45,7 +51,7 @@ body {
 }
 
 .navbar a:hover{
-  color: var(--raisin)
+  color: var(--red)
 }
 
 .banner{
@@ -54,15 +60,35 @@ body {
   background-image: url("images/artem-verbo-rAyIvNqlwCY-unsplash.jpg");
   filter:grayscale(50%);
   display:flex;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  align-items: center;
+  align-content: center;
   justify-content: center;
-  height: 800px;
+  max-width: 100%;
+  height: auto;
 }
 
 header h1{
   color: var(--red);
-  font-family: "Bakbak One";
   font-size: 5rem;
+}
+
+.container{
+  position: relative;
+  top: 6rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+
+p {
+  flex: 1;
+}
+
+.flexi{
+  display: flex;
+  flex-direction: column;
 }
