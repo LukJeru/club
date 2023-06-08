@@ -78,17 +78,42 @@ header h1{
   position: relative;
   top: 6rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   padding: 3rem;
 }
 
 
-p {
-  flex: 1;
+#image1{
+  padding-right: 10px;
+  float: left;
 }
 
-.flexi{
+#image2{
+  padding-left: 10px;
+  float: right;
+}
+
+#events{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#events h1{
+  width: 100%;
+}
+
+#events .card{
+  margin: 0 auto;
+  padding: 0.6rem;
+  border: 1px solid black;
   display: flex;
-  flex-direction: column;
+}
+
+#events .card img{
+  width: 200px;
+  height: 200px;
+  padding-right: 0.3rem;
 }
