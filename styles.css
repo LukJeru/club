@@ -1,3 +1,8 @@
+body {
+  font-size: 16px;
+  margin: 0px;
+}
+
 header h1{
   color: red;
 }
@@ -8,4 +13,40 @@ header h1{
   --lightblue: #6EA4BF;
   --mintgreen: #C2EFEB;
   --honey: #ECFEE8;
+}
+
+.navbar {
+  width: 100%;
+  display:inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--darkpurple);
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.navbar ul{
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.navbar li{
+  padding: 20px 2rem;
+}
+
+.navbar #logo{
+  padding-left: 1rem;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: var(--honey);
+}
+
+.navbar a:hover{
+  color: var(--mintgreen)
 }
